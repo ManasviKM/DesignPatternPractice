@@ -89,6 +89,9 @@ int main()
 
     director->buildBasicHome();
 
+    delete builder;
+    delete director;
+
     return 0;
 
 }
