@@ -16,6 +16,8 @@ class IBuilder
 
     void buildSwimmingPool() {};
     void buildGarden() {};
+
+    virtual ~IBuilder() = default;
 };
 class Builder : public IBuilder
 {
